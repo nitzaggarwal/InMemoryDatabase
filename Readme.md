@@ -15,7 +15,7 @@ run app.py
 app = DatabaseManager()
 ```
 
-# This code demonstrates the following functional Capabilities:
+# This code demonstrates following functional Capabilities:
 
 ### creating a database.
 create a Database *db1* into app and pass a Database name
