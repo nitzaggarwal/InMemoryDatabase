@@ -3,18 +3,20 @@
 
 This is a Simple Inmemory Database application using Python which can be used as non-persistent in-memory database storage during execution of any application
 
-# This code demonstrates the following functional Capabilities:
-## Instructions to run the application
 
-#### Run the app.py file to run the predefined instructions OR create another Database Manager Object to run custom instructions.
+# Instructions to run the application
+
+### Run the app.py file to run the predefined instructions
 ```
 run app.py
 ```
-Or create a new Database Manager for custom instructions
+### Or create a new Database Manager for custom instructions
 ```
 app = DatabaseManager()
-
 ```
+
+# This code demonstrates the following functional Capabilities:
+
 ### creating a database.
 create a Database *db1* into app and pass a Database name
 ```
