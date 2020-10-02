@@ -24,7 +24,7 @@ db1 = app.createDatabase("Organization")
 ```
 
 ### selecting a particular Database from a Database Manager
-get a Database Verizon from app. returns the Database object if it exists. 
+get a Database named Organization from app. returns the Database object if it exists. 
 
 ```
 orgDB = app.getDatabase("Organization")
