@@ -28,9 +28,9 @@ get a Database Verizon from app. returns the Database object if it exists.
 verizonDB = app.getDatabase("Verizon")
 ```
 ### Creating Tables in a particular Database
-create a table into a database. Pass table name and coloumn attributes 
+create a table into a database. Pass table name and column attributes 
 
-Attributes Format [("coloumn 1 name","String"),("coloumn 2 name","String/Number"),("coloumn 3 name","Number/String"),("coloumn 4 name","Number/String")]
+Attributes Format [("column 1 name","String"),("column 2 name","String/Number"),("column 3 name","Number/String"),("column 4 name","Number/String")]
 
 ```
 employeeTable = verizonDB.createTable("Employee",[("user_name","String"),("address","String"),("phone","Number")])
@@ -71,15 +71,15 @@ get specific rows from a selected table returns a list of rows
 ```
 table1.get_rows(2)
 ```
-### SORT BY rows with a coloumn parameter in Ascending or Descending order
-This sorts the rows of the table with reference to specific coloumn parameter that is passed. Returns a list of rows in sorted order
-specify Coloumn name and 'asc' for Ascending / 'dsc' for Descending order
+### SORT BY rows with a column parameter in Ascending or Descending order
+This sorts the rows of the table with reference to specific column parameter that is passed. Returns a list of rows in sorted order
+specify column name and 'asc' for Ascending / 'dsc' for Descending order
 ```
 table1.order_by("user_name","asc")
 ```
-### GroupBY rows with reference to a coloumn parameter. Returns count 
+### GroupBY rows with reference to a column parameter. Returns count 
 
-This groups the rows with reference to the specified coloumn name, and returns a list of different values and their counts . 
+This groups the rows with reference to the specified column name, and returns a list of different values and their counts . 
 
 ```
 table1.group_by("address"))
