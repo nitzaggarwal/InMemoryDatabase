@@ -28,7 +28,8 @@ get a Database Verizon from app. returns the Database object if it exists.
 verizonDB = app.getDatabase("Verizon")
 ```
 ### Creating Tables in a particular Database
-create a table into a database. Pass table name and coloumn attributes \ 
+create a table into a database. Pass table name and coloumn attributes 
+
 Attributes Format [("coloumn 1 name","String"),("coloumn 2 name","String/Number"),("coloumn 3 name","Number/String"),("coloumn 4 name","Number/String")]
 
 ```
