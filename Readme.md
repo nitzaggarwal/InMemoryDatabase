@@ -1,5 +1,5 @@
 
-# INMEMORY-DATABASE
+# IN-MEMORY DATABASE
 
 This is a Simple Inmemory Database application using Python which can be used as non-persistent in-memory database storage during execution of any application
 
