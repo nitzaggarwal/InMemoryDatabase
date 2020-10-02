@@ -20,14 +20,14 @@ app = DatabaseManager()
 ### creating a database.
 create a Database *db1* into app and pass a Database name
 ```
-db1 = app.createDatabase("Verizon")
+db1 = app.createDatabase("Organization")
 ```
 
 ### selecting a particular Database from a Database Manager
 get a Database Verizon from app. returns the Database object if it exists. 
 
 ```
-verizonDB = app.getDatabase("Verizon")
+orgDB = app.getDatabase("Organization")
 ```
 ### Creating Tables in a particular Database
 create a table into a database. Pass table name and column attributes 
@@ -35,18 +35,18 @@ create a table into a database. Pass table name and column attributes
 Attributes Format [("column 1 name","String"),("column 2 name","String/Number"),("column 3 name","Number/String"),("column 4 name","Number/String")]
 
 ```
-employeeTable = verizonDB.createTable("Employee",[("user_name","String"),("address","String"),("phone","Number")])
+employeeTable = orgDB.createTable("Employee",[("user_name","String"),("address","String"),("phone","Number")])
 ```
 
 ### Dropping a particular Table
 ```
-VerizonDB.dropTable("Employee")
+orgDB.dropTable("Employee")
 ```
 
 ### selecting a Table
 select an exisiting table, returns an object of table
 ```  
-table1 = VerizonDB.selectTable("Employee")    
+table1 = orgDB.selectTable("Employee")    
 ```
 
 ### Inserting rows in a Table
