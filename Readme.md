@@ -1,9 +1,9 @@
 
-#INMEMORY-DATABASE
+###INMEMORY-DATABASE
 
-####This is a Simple Inmemory Database application using Python which can be used as non-persistent in-memory database storage during execution of any application
+###This is a Simple Inmemory Database application using Python which can be used as non-persistent in-memory database storage during execution of any application
 
-####This code demonstrates the following functional Capabilities:
+###This code demonstrates the following functional Capabilities:
 
 ###creating a database.
 ###selecting a particular Database from a Database Manager
